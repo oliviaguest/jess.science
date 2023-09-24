@@ -1,6 +1,6 @@
 $(function() {
 
-  var ImagesDir = "/images/birds/";
+  var ImagesDir = "./images/birds/";
   function openFile(file) {
     var extension = file.substr( (file.lastIndexOf('.') +1) );
     switch(extension) {
@@ -47,32 +47,10 @@ $(function() {
   };
 
 
-    // console.log(fileNames);
-
-    // var randomItem = fileNames[Math.floor(Math.random()*fileNames.length)]
-    // fileNames = fileNames.sort(function() {return 0.5 - Math.random()})
-    // console.log(fileNames);
-
-    // console.log(randomItem);
-
-    // console.log(fileNames.length);
-
-    // function getFiles() {
-    //   return new Promise((resolve) => {
-    //     setTimeout(() => {
-    //       resolve('resolved');
-    //     }, 2000);
-    //   });
-    // }
     
     async function asyncCall() {
       console.log('calling');
       const fileNames = await getFiles();
-      // console.log(fileNames.length);
-
-
-
-      // Expected output: "resolved"
     }
     
     asyncCall();
