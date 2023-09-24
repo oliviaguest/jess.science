@@ -1,61 +1,17 @@
 $(function() {
-
-  var ImagesDir = "./images/birds/";
-  function openFile(file) {
-    var extension = file.substr( (file.lastIndexOf('.') +1) );
-    switch(extension) {
-        case 'png':
-            return true;
-        default:
-            return false;
-    }
-  };
+  var fileNames = new Array();
 
   function placeImages() {
     console.log(fileNames);
     console.log(fileNames);
     console.log(fileNames);
     fileNames.sort(function() {return 0.5 - Math.random()});
-    console.log(ImagesDir+fileNames[0]);
-    $( "#top-bird" ).attr("src", ImagesDir+fileNames[0]);
-    $( "#bottom-bird" ).attr("src", ImagesDir+fileNames[1]);
-
-
+    $( "#top-bird" ).attr("src", fileNames[0].innerText);
+    $( "#bottom-bird" ).attr("src", fileNames[1].innerText);
   };
 
-  console.log( "ready!" );
-  var fileNames = new Array();
-
-  function getFiles() {
-      // return new Promise((resolve) => {
-
-        $.ajax({
-        url: ImagesDir,
-        success: function(data){
-          $(data).find("td > a").each(function(){
-              if(openFile($(this).attr("href"))){
-                  fileNames.push($(this).attr("href"));
-              }           
-          });
-        }
-      }).done(function( data ) {
-        if ( console && console.log ) {
-          placeImages();
-        }
-    });
-    // });
-  };
-
-
-    
-    async function asyncCall() {
-      console.log('calling');
-      const fileNames = await getFiles();
-    }
-    
-    asyncCall();
-
-
-
+fileNames = $(".image-url");
+console.log(fileNames[0].innerText);
+placeImages();
 });
 

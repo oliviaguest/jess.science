@@ -118,3 +118,7 @@ padding-bottom: 1rem;}
   .footer .is-center {
     display: block;
   }
+
+  p.image-url {
+    display: none;
+}

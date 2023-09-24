@@ -37,9 +37,6 @@ plugins:
 sass:
     sass_dir: _sass
 
-collections:
-  people:
-
 array: []
 
 # Exclude from processing.
