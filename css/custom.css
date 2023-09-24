@@ -122,3 +122,14 @@ padding-bottom: 1rem;}
   p.image-url {
     display: none;
 }
+
+ul.socials {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+}
+
+li.social {
+    padding-right: 1.5rem;
+    font-size: 4rem;
+}
