@@ -57,9 +57,13 @@ h1 {
     font-size: 5.5rem;
 }
 
+h2 {
+    font-size: 4rem;
+}
+
+
 h1, h2, h3, .brand{
-    font-family: 'Borel', serif;
-    
+    font-family: 'Grand Hotel', cursive;    
 }
 
 h1 a, h2 a, h3 a {
