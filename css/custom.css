@@ -1,22 +1,18 @@
 html {
     height: 100%;
-
     /* These are technically the same, but use both */
     overflow-wrap: break-word;
     word-wrap: break-word;
-
     -ms-word-break: break-all;
     /* This is the dangerous one in WebKit, as it breaks things wherever */
     word-break: break-all;
     /* Instead use this non-standard one: */
     word-break: break-word;
-
     /* Adds a hyphen where the word breaks, if supported (No Blink) */
     -ms-hyphens: auto;
     -moz-hyphens: auto;
     -webkit-hyphens: auto;
     hyphens: auto;
-
 }
 
 body {
@@ -48,19 +44,18 @@ p {
     filter: FlipH;
 }
 
-
 h2 {
     scroll-margin-top: 1rem;
 }
 
 h1 {
     font-size: 5.5rem;
+    display: block;
 }
 
 h2 {
     font-size: 4rem;
 }
-
 
 h1, h2, h3, .brand{
     font-family: 'Grand Hotel', cursive;    
@@ -78,52 +73,37 @@ a {
 a:hover
 {
     color:#3e4e31;
-
 }
 
-p a:hover, li a:hover {    text-decoration: underline;
+p a:hover, li a:hover {
+    text-decoration: underline;
 }
-
-
-
-
 
 .content {
     margin-top: 6rem;
 }
 
-
-
 .column {
     clear: both;
-
 }
 
 .footer {
-font-size: 1.25rem;
-padding-bottom: 1rem;}
-
+    font-size: 1.25rem;
+    padding-bottom: 1rem;
+}
 
  .content img {
    /* display: block;
    max-width: 100%; */
    padding-bottom: 2rem;
-
  }
-
-
 
 .item {
     text-indent: -2em;
     list-style-type: none;
-  }
+}
 
-  
-  .footer .is-center {
-    display: block;
-  }
-
-  p.image-url {
+p.image-url {
     display: none;
 }
 
@@ -131,6 +111,7 @@ ul.socials {
     list-style-type: none;
     display: flex;
     padding: 0;
+    margin: 0;
 }
 
 li.social {
@@ -138,3 +119,6 @@ li.social {
     font-size: 4rem;
 }
 
+.footer-text {
+    padding-top: 2rem;
+}
