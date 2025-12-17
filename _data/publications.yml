@@ -15,3 +15,22 @@
   journal: The Oxford Handbook of Down Syndrome and Development
   pdf: 
   doi: 10.1093/oxfordhb/9780190645441.013.18
+
+- date: 2024-10-31
+  type: journal
+  status: published
+  authors: Francesco Poli, Maran Koolen, Carlos A. Velázquez-Vargas, <b>Jessica Ramos-Sanchez</b>, Marlene Meyer, Rogier B. Mars, Nanda Rommelse, Sabine Hunnius
+  title: Autistic traits foster effective curiosity-driven exploration
+  journal: PLOS Computational Biology
+  pdf: https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1012453&type=printable
+  doi: 10.1371/journal.pcbi.1012453
+
+- date: 2024-10-15
+  type: journal
+  status: published
+  authors: Claudia Männel, <b>Jessica Ramos-Sanchez</b>, Hellmuth Obrig, Merav Ahissar, Gesa Schaadt
+  title: "Perceptual anchoring: Children with dyslexia benefit less than controls from contextual repetitions in speech processing"
+  journal: Clinical Neurophysiology
+  pdf: https://www.sciencedirect.com/science/article/pii/S1388245724002207/pdfft?md5=c337cdb86b7eb757abe6999823bc18f1&pid=1-s2.0-S1388245724002207-main.pdf
+  doi: 10.1016/j.clinph.2024.07.016
+
