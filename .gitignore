@@ -7,3 +7,14 @@ _site/
 vendor/
 
 find . -name .DS_Store -print0 | xargs -0 git rm --ignore-unmatch
+
+_site
+.DS_Store
+.jekyll
+.jekyll-cache
+.bundle
+.sass-cache
+Gemfile.lock
+node_modules
+package.json
+
